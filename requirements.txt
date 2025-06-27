@@ -1,0 +1,8 @@
+openai
+PyPDF2
+numpy
+tiktoken
+uproot
+awkward
+pdfminer.six
+scikit-learn
