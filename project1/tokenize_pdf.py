@@ -22,3 +22,4 @@ with open("paper_tokens.txt", "w", encoding="utf-8") as f:
     f.write(",".join(map(str, tokens)))
 
 print(f"Number of tokens: {len(tokens)}")
+print(f"Number of words: {len(text.split())}")
