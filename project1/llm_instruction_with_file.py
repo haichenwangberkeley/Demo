@@ -16,6 +16,7 @@ This script sends a user instruction and the contents of a text file to an LLM (
 import sys
 import os
 import openai  # Make sure openai is installed and your API key is set
+import time
 
 def main():
     if len(sys.argv) != 3:
@@ -35,18 +36,22 @@ def main():
     prompt = f"{instruction}:\n\n{text}"
 
     try:
+        start_time = time.time()
         client = openai.OpenAI(
             api_key=os.environ.get('CBORG_API_KEY'),
             base_url="https://api.cborg.lbl.gov"
         )
         response = client.chat.completions.create(
-            model="google/gemini-flash",
+            model="lbl/cborg-chat:latest",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=1024,
             temperature=0.5,
         )
+        end_time = time.time()
+        latency = end_time - start_time
         result = response.choices[0].message.content
         print(result)
+        print(f"\n--- Inference Time: {latency:.2f} seconds ---")
         # Print token usage breakdown if available
         if hasattr(response, 'usage') and response.usage:
             print("\n--- Token Usage ---")
