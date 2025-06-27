@@ -54,3 +54,7 @@ export CBORG_API_KEY="sk-demo1234567890abcdef"
 ```
 
 Replace the value with your actual API key. This ensures your credentials remain secure and are not exposed in code or version control.
+
+## Further Learning
+
+There are many great tutorials and resources online to help you learn more about LLMs and prompt engineering. One highly recommended resource is the [OpenAI Cookbook](https://github.com/openai/openai-cookbook), which contains practical guides and examples for working with LLM APIs and related tools.
