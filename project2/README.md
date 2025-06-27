@@ -4,9 +4,17 @@ This project demonstrates how to use embeddings and cosine similarity to select 
 
 ## Step 1: Prepare Input Files
 
+Assume you have completed Project 1. You can copy `paper_text.txt` from Project 1 into this directory as your example document about physics and machine learning:
+
+```bash
+cp ../project1/paper_text.txt .
+```
+
+There is also a default text file, `declaration_of_independence.txt`, included as an example document about American history.
+
 You need two text files to compare. For example:
 - `paper_text.txt` (from Project 1)
-- `declaration_of_independence.txt` (download or create this file)
+- `declaration_of_independence.txt` (provided here)
 
 ## Step 2: Run the Embedding and Context Selection Script
 
