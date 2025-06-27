@@ -33,3 +33,9 @@ The script will:
 **Check if the selection is correct:**
 - If you ask a question about physics, the script should select `paper_text.txt`
 - If you ask about American history, it should select `declaration_of_independence.txt`
+
+## Open-Ended Practice Suggestion
+
+After completing Project 1 and Project 2, try creating a few documents of your own choosing on different subjects. Use the embedding similarity script to select the most relevant document as context for a question, then pass this prompt and context to an LLM API call.
+
+This exercise will help you practice retrieval-augmented generation and see how context selection can improve LLM responses for a variety of topics.
