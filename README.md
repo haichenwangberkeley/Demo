@@ -1,5 +1,7 @@
 # Demo Project Setup
 
+These tutorials are developed for the 2025 DOE Computational High Energy Physics Traineeship Summer School. For more information and the full schedule, see the [Indico event page](https://indico.cern.ch/event/1531818/timetable/?view=standard).
+
 This guide will help you set up a Python environment and install the required packages for this workspace.
 
 ## 1. Create a Python Virtual Environment
