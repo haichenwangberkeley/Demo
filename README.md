@@ -58,3 +58,7 @@ Replace the value with your actual API key. This ensures your credentials remain
 ## Further Learning
 
 There are many great tutorials and resources online to help you learn more about LLMs and prompt engineering. One highly recommended resource is the [OpenAI Cookbook](https://github.com/openai/openai-cookbook), which contains practical guides and examples for working with LLM APIs and related tools.
+
+## Open-Ended Practice Suggestion
+
+Can you think about what tasks you can automate with LLMs? Try implementing your own automation idea using the tools and techniques from these tutorials. If you come up with something interesting or have questions, let me know at haichenwang@lbl.gov!
