@@ -39,3 +39,16 @@ pip list
 ## 4. Project Usage
 
 See the README in each project directory for instructions on running the individual projects.
+
+## Setting Up the CBORG API Key
+
+To use the LLM API, you need to set your CBORG API key as an environment variable. **Never hard-code your API key in scripts or commit it to git.**
+
+Example (add this to your terminal or your shell profile):
+
+```bash
+export CBORG_API_KEY="sk-demo1234567890abcdef"
+# The above key value is a dummy, just for demo purpose
+```
+
+Replace the value with your actual API key. This ensures your credentials remain secure and are not exposed in code or version control.
